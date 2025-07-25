@@ -1,13 +1,13 @@
-.countryCard{
+.cCard{
     display:flex;
     flex-direction: column;
     align-items: center;
 }
-.countryCard img {
+.cCard img {
     height: 100px;
     width: 80px
 }
-.countryCard p {
+.cCard p {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
     

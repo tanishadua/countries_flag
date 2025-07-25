@@ -19,7 +19,7 @@ function App() {
         setSearchedFlagData(data)
       }
     }catch(error){
-      console.log(error)
+      console.error(error)
     }
   }
   
@@ -34,7 +34,7 @@ function App() {
   return (
     <div className="App">
      <input type="text" name="search" value={searchVal} onChange={handleInputChange} placeholder='Search for countries...' />
-     {<div className="container">
+     {<div className="countryCard">
       {serachedFlagData.map((obj)=> (
         <Card name={obj.common} image={obj.png}/>
       ))}

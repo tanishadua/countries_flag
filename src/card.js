@@ -1,7 +1,7 @@
 import "./card.css"
 function Card(props) {
     return (
-        <div className="countryCard">
+        <div className="cCard">
             <img src={props.image} alt={props.name}/>
             <p>{props.name}</p>
         </div>
