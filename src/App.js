@@ -34,7 +34,7 @@ function App() {
   return (
     <div className="App">
      <input type="text" name="search" value={searchVal} onChange={handleInputChange} placeholder='Search for countries...' />
-     {<div className="countryCard">
+     {<div className="container">
       {serachedFlagData.map((obj)=> (
         <Card name={obj.common} image={obj.png}/>
       ))}
