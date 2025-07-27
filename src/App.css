@@ -10,7 +10,7 @@
   align-self: center;
   
 }
-.countryCard{
+.container{
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
