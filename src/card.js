@@ -1,7 +1,7 @@
-import "./card.css"
+import classes from "./card.module.css"
 function Card(props) {
     return (
-        <div className="cCard">
+        <div className={`${classes.countryCard}`}>
             <img src={props.image} alt={props.name}/>
             <p>{props.name}</p>
         </div>
